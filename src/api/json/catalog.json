@@ -54,6 +54,19 @@
       "url": "https://raw.githubusercontent.com/aerleon/aerleon/main/schemas/aerleon-policies.schema.json"
     },
     {
+      "name": "aenode config",
+      "description": "Aeternity node configuration",
+      "fileMatch": [
+        "aeternity.yml",
+        "aeternity.yaml",
+        "aeternity.json",
+        "*.aeternity.yml",
+        "*.aeternity.yaml",
+        "*.aeternity.json"
+      ],
+      "url": "https://raw.githubusercontent.com/aeternity/aeternity/master/apps/aeutils/priv/aeternity_config_schema.json"
+    },
+    {
       "name": ".agripparc.json",
       "description": "the Agrippa config file",
       "fileMatch": [".agripparc.json", "agripparc.json"],
